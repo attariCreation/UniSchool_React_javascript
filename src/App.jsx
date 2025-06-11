@@ -1,0 +1,25 @@
+import Navbar from './components/landing/navbar.jsx';
+import Hero from './components/landing/hero.jsx';
+import Features from './components/landing/features.jsx';
+import HowItWorks from './components/landing/how-it-works.jsx';
+import SchoolSearch from './components/landing/school-search.jsx';
+import TrustSection from './components/landing/trust-section.jsx';
+import PricingPreview from './components/landing/pricing-preview.jsx';
+import Footer from './components/landing/footer.jsx';
+import './index.css'
+export default function LandingPage() {
+  return (
+    <div className="flex flex-col min-h-screen bg-background text-foreground font-body">
+      <Navbar />
+      <main className="flex-grow">
+        <Hero />
+        <Features />
+        <HowItWorks />
+        <SchoolSearch />
+        <TrustSection />
+        <PricingPreview />
+      </main>
+      <Footer />
+    </div>
+  );
+} 

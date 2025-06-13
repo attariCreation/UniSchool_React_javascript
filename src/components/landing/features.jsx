@@ -39,7 +39,7 @@ const Features = () => {
   const [sectionRef, isSectionVisible] = useIntersectionObserver();
 
   return (
-    <section id="features" className="py-16 sm:py-24 bg-background" ref={sectionRef}>
+    <section id="features" className="py-16 sm:py-24 bg-accent/20" ref={sectionRef}>
       <div className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className={`text-center mb-12 transition-all duration-1000 ${isSectionVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="font-headline text-3xl sm:text-4xl font-bold text-foreground">Everything You Need, All In One Place</h2>

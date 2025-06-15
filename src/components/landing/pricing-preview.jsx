@@ -50,7 +50,7 @@ const PricingPreview = () => {
               )}
 
               <CardHeader className="text-center">
-                <CardTitle className="font-headline text-2xl font-semibold text-foreground">{plan.name}</CardTitle>
+                <CardTitle className="font-headline text-2xl font-semibold text-white">{plan.name}</CardTitle>
                 <CardDescription className="text-4xl font-bold text-primary mt-2">{plan.price}</CardDescription>
                 {plan.price !== "Coming Soon" && <p className="text-sm text-muted-foreground">per month</p>}
               </CardHeader>
@@ -69,7 +69,7 @@ const PricingPreview = () => {
               <CardFooter>
                 <a href="#" className="w-full">
                   <Button
-                    className={`w-full ${plan.isFeatured ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'bg-accent text-accent-foreground hover:bg-accent/90'} transition-transform hover:scale-105`}
+                    className={`w-full ${plan.isFeatured ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'bg-accent text-white  hover:bg-accent/90'} transition-transform hover:scale-105`}
                     size="lg"
                   >
                     {plan.cta}

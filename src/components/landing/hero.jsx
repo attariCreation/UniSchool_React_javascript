@@ -38,7 +38,7 @@ const Hero = () => {
           }}
         >
           <h1
-            className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold text-foreground leading-tight transition-all duration-1000"
+            className="sm:mt-5 font-headline text-4xl sm:text-5xl md:text-6xl font-bold text-foreground leading-tight transition-all duration-1000"
             style={{
               opacity: isSectionVisible ? 1 : 0,
               transform: isSectionVisible ? 'translateY(0)' : 'translateY(10px)',
@@ -79,7 +79,7 @@ const Hero = () => {
           >
             <Button
               size="lg"
-              className="bg-accent  text-accent-foreground hover:bg-accent/90 transition-transform hover:scale-105 shadow-lg hover:shadow-xl rounded-full px-8 py-3 text-base font-semibold group"
+              className="bg-accent  text-white hover:bg-accent/90  transition-transform hover:scale-105 shadow-lg hover:shadow-xl rounded-full px-8 py-3 text-base font-semibold group"
             >
               <Link to="#">
                 Create School

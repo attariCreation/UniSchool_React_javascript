@@ -53,7 +53,7 @@ const Navbar = () => {
           </Button>
           <Button
             size="sm"
-            className="bg-accent text-accent-foreground hover:bg-[var(--accent)]/90 transition-all hover:shadow-md"
+            className="bg-accent text-white hover:bg-[var(--accent)]/90 transition-all hover:shadow-md hover:text-accent"
           >
             <Link to="/signup">Sign Up</Link>
           </Button>
@@ -72,7 +72,7 @@ const Navbar = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-16 inset-x-0 p-2 transition transform origin-top-right bg-[ shadow-lg ring-1 ring-black ring-opacity-5">
+        <div className="md:hidden absolute top-16 inset-x-0 p-2 transition transform origin-top-right bg-white shadow-lg ring-1 ring-black ">
           <div className="flex flex-col space-y-2 p-4">
             {navLinks.map((link) => (
               <a

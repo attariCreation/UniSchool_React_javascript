@@ -9,19 +9,19 @@ body {
   @theme {
 
     --color-background: hsl(0 0% 100%);
-    --color-main: #2563EB;
+    --color-main: #1E426B;
     --color-foreground: hsl(222.2 84% 4.9%);
     --color-card: hsl(0 0% 100%);
     --color-card-foreground: hsl(222.2 84% 4.9%);
     --color-popover: hsl(0 0% 100%);
     --color-popover-foreground: hsl(222.2 84% 4.9%);
-    --color-primary: hsl(221.2 83.2% 53.3%);
+    --color-primary: #1E426B;
     --color-primary-foreground: hsl(210 40% 98%);
     --color-secondary: hsl(210 40% 96.1%);
     --color-secondary-foreground: hsl(222.2 47.4% 11.2%);
     --color-muted: hsl(210 40% 96.1%);
     --color-muted-foreground: hsl(215.4 16.3% 46.9%);
-    --color-accent: hsl(40 98% 50%);
+    --color-accent: #2A8E6F;
     --color-accent-foreground: hsl(215 28% 17%);
     --color-destructive: hsl(0 84.2% 60.2%);
     --color-destructive-foreground: hsl(210 40% 98%);
@@ -157,3 +157,7 @@ body {
 .delay-800 { animation-delay: 800ms; }
 .delay-900 { animation-delay: 900ms; }
 .delay-1000 { animation-delay: 1000ms; }
+
+/* .button{
+  color: white !important;
+} */

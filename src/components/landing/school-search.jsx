@@ -40,7 +40,7 @@ const SchoolSearch = () => {
           </div>
 
           {/* Right Image */}
-          <div className="w-full ml-20 md:w-1/2 max-w-md mx-auto">
+          <div className="w-full md:ml-20 md:w-1/2 max-w-md mx-auto">
             <img
               src={Img}
               alt="Join School"
